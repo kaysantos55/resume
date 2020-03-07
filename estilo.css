@@ -1,0 +1,17 @@
+body{
+  background-color: black;
+color: white;
+}
+.cabecalho {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+
+}
+.minha-info{
+background-color: yellow;
+flex-grow: 1;
+}
+.contato{
+  background-color: blue;
+}
