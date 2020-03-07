@@ -1,55 +1,78 @@
-body{
-background-color:white;
-color:black;font-family: 'Roboto', sans-serif;
-
+body {
+  color: #333;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-.cabecalho {
-background-color: white;
-display: flex;
-justify-content: space-between;
-align-items: center;
-
+main {
+  width: 90%;
+  margin: 0 auto;
 }
-.minha-info{
-  background-color:white;
+
+.cabecalho,.profissional-skill{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.minhas-infos {
   flex-grow: 2;
   display: flex;
   align-items: center;
 }
 
-.contato{
-  background-color: white;
+.meus-contatos {
   flex-grow: 1;
 }
-.logo{
-      width: 200px;/*largura*/
-      height: 200px;/*altura*/
-      background-color: black;
-      border-radius: 50%;
-      display: flex;
-      justify-content: flex-end;
-      align-items: flex-end;/*vertical*/ 
-    }
 
-    .logo p {
-      font-size: 45px;
-      margin-top: 0;
-      margin-bottom: 10px;
-      margin-right: 50px;
-      font-style: italic;
-      font-family: sans-serif;
-      color:white
-    }
-    .texto{ 
-      margin-left: 20px;
-    }
-       .titulo-pricipal{
-         display: flex;
-         align-items: center;
-         margin-bottom: 20px;
-       }
-       .titulo-pricipal h4{
-         font-size: 26px;
-         margin-left: 20px;
-       }
+.logo {
+  width: 200px;
+  height: 200px;
+  background-color: #333;
+  border-radius: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.logo p {
+  font-size: 42px;
+  color: #eee;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+.textos {
+  margin-left: 20px;
+}
+
+.titulo-principal {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.titulo-principal h4 {
+  font-size: 26px;
+  margin-left: 20px;
+}
+
+.titulo-principal i {
+  width: 40px;
+    height: 40px;
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EEE;
+    font-size: 18px;
+}
+.profissional {
+  flex-grow: 2;
+}
+.skill{
+  flex-grow: 2;
+}
