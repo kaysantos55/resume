@@ -1,29 +1,31 @@
 body{
-background-color: black;
-color: white;
+background-color:white;
+color:black;font-family: 'Roboto', sans-serif;
+
 }
 
 .cabecalho {
-background-color: red;
+background-color: white;
 display: flex;
 justify-content: space-between;
+align-items: center;
 
 }
 .minha-info{
-  background-color: blueviolet;
+  background-color:white;
   flex-grow: 2;
   display: flex;
   align-items: center;
 }
 
 .contato{
-  background-color: blue;
+  background-color: white;
   flex-grow: 1;
 }
 .logo{
       width: 200px;/*largura*/
       height: 200px;/*altura*/
-      background-color: red;
+      background-color: black;
       border-radius: 50%;
       display: flex;
       justify-content: flex-end;
@@ -37,8 +39,17 @@ justify-content: space-between;
       margin-right: 50px;
       font-style: italic;
       font-family: sans-serif;
+      color:white
     }
     .texto{ 
       margin-left: 20px;
     }
-       
+       .titulo-pricipal{
+         display: flex;
+         align-items: center;
+         margin-bottom: 20px;
+       }
+       .titulo-pricipal h4{
+         font-size: 26px;
+         margin-left: 20px;
+       }
